@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    background-color: #2B2E4A;
+}
+
+.navbar img {
+    width: 90px;
+    height: auto;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #cec6cc;
+    padding: 10px;
+}
+
+.navigation a:hover {
+    color: rgb(255, 203, 196);
+}
+
+
+body {
+    background-color: #903749;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+
+}
+
+/* .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    background-color: #E84545;
+}
+
+.navbar img {
+    width: 90px;
+    height: auto;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.navigation a:hover {
+    color: bisque;
+} */
+
+h2 {
+    text-align: center;
+    margin: 30px;
+    font-size: 50px;
+    color: #ffdbe2;
+}
+
+form {
+    /* margin-top: 20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 35px 50px;
+    background-color: #53354A;
+    color: aliceblue;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.agreebox {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    /* justify-content: center; */
+}
+
+#agreeBox {
+    margin-right: 8px;
+}
+
+label {
+    margin-bottom: 7px;
+    /* margin-top: 10px; */
+}
+
+input, textarea {
+    margin-bottom: 25px;
+    padding: 10px;
+    /* background-color: #ffffff; */
+}
+
+#maleBtn, #unknownBtn {
+    margin-left: 10px;
+}
+
+#submitBtn {
+    width: 50%;
+    cursor: pointer;
+    background-color: #2B2E4A;
+    color: #FFF;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#submitBtn:hover {
+    width: 50%;
+    cursor: pointer;
+    background-color: #53354A;
+}
+
+.footer {
+    margin-top: 50px;
+    height: auto;
+    background-color: #2B2E4A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.links {
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.links img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.capcom-logo {
+    width: 150px;
+    height: 50px;
+    /* display: flex; */
+}
+
+.capcom-logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/* input { */
+/* } */
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="logo">
+            <a href="../Home/index.html">
+                <img src="../assets/logo-final.png" alt="logo">
+            </a>
+        </div>
+        <div class="navigation">
+            <a href="../About/index.html">About</a>
+            <a href="../Register/index.html">Register</a>
+            <a href="../Requirements/index.html">System</a>
+            <a href="../Characters/index.html">Characters</a>
+        </div>
+    </div>
+
+    <h2>REGISTER</h2>
+    <div class="container">
+        <form action="" method="post">
+
+            <label for="fullName">Full Name</label>
+            <input type="text" name="fullName" id="fullName">
+
+            <label for="gender">Gender</label>
+            <div class="genderOption">
+                <input type="radio" name="gender" id="femaleBtn">
+                <label for="femaleBtn">Female</label>
+                <input type="radio" name="gender" id="maleBtn">
+                <label for="maleBtn">Male</label>
+                <input type="radio" name="gender" id="unknownBtn">
+                <label for="unknownBtn">Rather not to say</label>
+            </div>
+
+            <label for="password">Password</label>
+            <input type="text" name="password" id="password">
+
+            <label for="address">Address</label>
+            <textarea name="address" id="address" cols="30" rows="5"></textarea>
+
+            <div class="agreebox">
+                <input type="checkbox" name="agreeBox" id="agreeBox">
+                <label for="agreeBox" id>Terms and condition</label>
+            </div>
+
+            <input type="button" value="SUBMIT" id="submitBtn">
+
+            <script src="./index.js"></script>
+        </form>
+
+    </div>
+
+    <div class="footer">
+        <div class="links">
+            <a href=""><img src="../assets/instagram-512.png" alt=""></a>
+            <a href=""><img src="../assets/facebook-512.png" alt=""></a>
+            <a href=""><img src="../assets/youtube-512.png" alt=""></a>
+            <a href=""><img src="../assets/twitter-512.png" alt=""></a>
+        </div>
+        <div class="capcom-logo">
+            <img src="../assets/capcom.png" alt="capcom">
+        </div>
+    </div>
+
+</body>
+
+</html>

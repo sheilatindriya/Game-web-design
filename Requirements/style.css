@@ -1,0 +1,169 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background-color: #2B2E4A;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    background-color: #2B2E4A;
+}
+
+.navbar img {
+    width: 90px;
+    height: auto;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #cec6cc;
+    padding: 10px;
+}
+
+.navigation a:hover {
+    color: rgb(255, 203, 196);
+}
+
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    background-image: url("../assets/system-banner.jpg");
+}
+
+.banner h1 {
+    margin: 20px auto;
+    text-shadow: 2px 2px 5px black;
+    color: rgb(197, 36, 36);
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.banner h3 {
+    color: #E84545;
+    font-size: 35px;
+    margin: 10px auto;
+    text-shadow: 2px 2px 5px black;
+    width: 70%;
+}
+
+.banner p {
+    padding: 10px 100px;
+    font-size: 25px;
+    color: #cec6cc;
+    text-shadow: 2px 2px 5px black;
+}
+
+.cameo, .auto-assist, .photo-mode {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    height: 300px;
+    margin: 30px;
+    color: #cec6cc;
+    background-color: rgb(19, 18, 18);
+}
+
+.container {
+    width: 60%;
+    padding: 30px;
+}
+
+ .container h1 {
+    font-size: 50px;
+    color: #E84545;
+    margin: 10px 0px;
+}
+
+ .container h3 {
+    font-size: 25px;
+    color: #2B2E4A;
+}
+
+.container-img {
+    width: 40%;
+}
+
+.container-img img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block; /* remove extra space below image */
+}
+
+.footer {
+    margin-top: 50px;
+    height: auto;
+    background-color: #2B2E4A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.links {
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.links img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.capcom-logo {
+    width: 150px;
+    height: 50px;
+    /* display: flex; */
+}
+
+.capcom-logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media all and (max-width: 500px) {
+
+    .banner {
+        height: auto;
+    }
+
+    .banner h1{
+        font-size: 50px;
+    }
+
+    .banner h3 {
+        font-size: 25px;
+    }
+
+    .banner p {
+        font-size: 15px;
+    }
+
+    .cameo, .auto-assist, .photo-mode {
+        height: auto;
+        flex-direction: column-reverse;
+    }
+
+    .container-img {
+        width: 100%;
+    }
+}

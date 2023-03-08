@@ -1,0 +1,227 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    background-color: #2B2E4A;
+}
+
+.navbar img {
+    width: 90px;
+    height: auto;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #cec6cc;
+    padding: 10px;
+}
+
+.navigation a:hover {
+    color: rgb(255, 203, 196);
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+    background-image: url("../assets/about-banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* padding: 30px; */
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+}
+
+.banner h1 {
+    font-size: 150px;
+    color: rgb(197, 36, 36);
+}
+
+.nero, .v {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.nero .left, .v .left {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* width: 50%; */
+    position: relative;
+}
+
+.nero .right, .v .right {
+    display: flex;
+    justify-content: center;
+    flex: 50%;
+    margin-right: 0;
+    /* width: 50%; */
+}
+
+.nero-title, .v-title {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    font-size: 100px;
+    color: #e97f7f;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black;
+}
+
+
+
+.nero .left img, .v .left img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-right: 1px;
+}
+
+.nero .right img, .v .right img {
+    max-width: 100%;
+    max-height: 750px;
+    object-fit: cover
+}
+
+.dante {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.dante .left {
+    display: flex;
+    justify-content: center;
+    flex: 50%;
+    margin-right: 0;
+}
+
+.dante .right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex: 50%;
+    margin-right: 0;
+    position: relative;
+}
+
+.dante .left img {
+    max-width: 100%;
+    max-height: 750px;
+    object-fit: cover
+}
+
+.dante .right img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-right: 1px;
+}
+
+.dante-title {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    font-size: 100px;
+    color: #e97f7f;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black;
+}
+
+.footer {
+    margin-top: 50px;
+    height: auto;
+    background-color: #2B2E4A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.links {
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.links img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.capcom-logo {
+    width: 150px;
+    height: 50px;
+    /* display: flex; */
+}
+
+.capcom-logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+@media all and (max-width: 500px) {
+    .banner {
+        height: auto;
+        width: 100%;
+    }
+
+    .banner h1 {
+        font-size: 50px;
+        padding-top: 100px;
+    }
+
+    .nero, .v{
+        flex-direction: column;
+    }
+
+    .dante {
+        flex-direction: column-reverse;
+    }
+
+    .nero .left, .v .left {
+        flex-direction: row;
+    }
+
+    .dante .right {
+        flex-direction: row;
+    }
+
+    .nero .left img, .v .left img {
+        width: 50%;
+    }
+
+    .dante .right img {
+        width: 50%;
+    }
+
+    .nero-title, .v-title, .dante-title {
+        font-size: 50px;
+    }
+
+
+
+
+}
